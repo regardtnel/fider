@@ -23,8 +23,8 @@ export const PoweredByFider = (props: PoweredByFiderProps) => {
 
   return (
     <div className={className}>
-      <a rel="noopener" href={`https://fider.io?utm_source=${source}&utm_medium=${medium}&utm_campaign=${campaign}`} target="_blank">
-        Powered by Fider
+      <a rel="noopener" href={`https://costotter.com`} target="_blank">
+        Navigate to CostOtter
       </a>
     </div>
   )
