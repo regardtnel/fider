@@ -10,7 +10,7 @@ interface PoweredByFiderProps {
 }
 
 export const PoweredByFider = (props: PoweredByFiderProps) => {
-  const fider = useFider()
+  // const fider = useFider()
 
   // const source = encodeURIComponent(fider.session.tenant.subdomain)
   // const medium = "powered-by"
