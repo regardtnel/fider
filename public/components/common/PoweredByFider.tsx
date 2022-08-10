@@ -12,9 +12,9 @@ interface PoweredByFiderProps {
 export const PoweredByFider = (props: PoweredByFiderProps) => {
   const fider = useFider()
 
-  const source = encodeURIComponent(fider.session.tenant.subdomain)
-  const medium = "powered-by"
-  const campaign = props.slot
+  // const source = encodeURIComponent(fider.session.tenant.subdomain)
+  // const medium = "powered-by"
+  // const campaign = props.slot
 
   const className = classSet({
     "c-powered": true,
